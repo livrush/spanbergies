@@ -1,0 +1,21 @@
+{
+  "name": "spanbergies",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Liv <w.phrush@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/livrush/spanbergies",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hover": "^2.3.1",
+    "bootstrap": "^4.1.3"
+  }
+}

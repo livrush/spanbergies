@@ -37,7 +37,7 @@ const awards = [
   {
     name_first: 'MacKenzie',
     name_last:  'Heidelmark',
-    award:      'Best spying on a staffer while they were pretending to work at home ',
+    award:      'Best spying on a staffer while they were pretending to work at home',
   },
   {
     name_first: 'Kayla',
@@ -52,7 +52,7 @@ const awards = [
   {
     name_first: 'Zoe',
     name_last:  'Kozlowski',
-    award:      'Best putting up with food shit ',
+    award:      'Best putting up with food shit',
   },
   {
     name_first: 'Adriane',
@@ -67,7 +67,7 @@ const awards = [
   {
     name_first: 'Whitney',
     name_last:  'Holt',
-    award:      'Best job not fucking up a friend online the day after Election Day ',
+    award:      'Best job not fucking up a friend online the day after Election Day',
   },
   {
     name_first: 'Kristi',

@@ -1,0 +1,1 @@
+![Spanbergies](./assets/gold-title.png)

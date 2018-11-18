@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "dev": "concurrently \"npm run dev\" \"npm run start\"",
+    "style": "sass ./style/style.scss ./style/style.css --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.0.1"
+  }
 }

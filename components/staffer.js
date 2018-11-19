@@ -1,16 +1,14 @@
 app.component('staffer', {
   bindings: {
-    staffer: '<',
+    details: '<',
+    index: '<',
   },
-  controller: function t() {
-    const face = this;
-    console.log(face);
-    face.$onInit = function () {
-      const first = face.staffer.nameFirst.split(' ').join('-').toLowerCase();
-      const last = face.staffer.nameLast.toLowerCase();
-      face.url = '/assets/staff-photos/' + [first, last].join('-') + '.png';
+  controller: function t(logic) {
+    const staffer = this;
+    staffer.$onInit = function () {
+      staffer.style = logic.styleBoolean(staffer.index) ? 'light' : 'dark';
     };
   },
-  controllerAs: 'face',
-  templateUrl: '/components/staffer-face.html',
+  controllerAs: 'staffer',
+  templateUrl: '/components/staffer.html',
 });

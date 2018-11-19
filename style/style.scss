@@ -16,6 +16,7 @@ body {
   font-family: Avenir;
   background: $blue-dark;
   color: $blue-light;
+  // background-image: linear-gradient(to bottom right, $blue-dark, $blue-light);
 }
 
 .trophy {
@@ -87,18 +88,18 @@ body {
 }
 
 .staffer-container {
-  height: 100vh;
-  padding-top: 145px;
-  background-size: 100vw 150px;
-  background-repeat: no-repeat;
+  height: 75vh;
+  // padding-top: 145px;
+  // background-size: 100vw 150px;
+  // background-repeat: no-repeat;
   &.light {
-    background-image: url("/assets/wave-1.png");
+    // background-image: url("/assets/wave-1.png");
     .award {
       color: $blue-dark;
     }
   }
   &.dark {
-    background-image: url("/assets/wave-2.png");
+    // background-image: url("/assets/wave-2.png");
     .award {
       color: white;
     }
@@ -121,6 +122,13 @@ body {
   }
 }
 
+.waves {
+  position: relative;
+  height: 95px;
+  width: 100vw;
+  overflow: hidden;
+}
+
 .wave {
   height: 100px;
   width: 200vw;
@@ -135,13 +143,15 @@ body {
   animation-name: waves;
   animation-duration: 8s;
   animation-direction: normal;
-  // animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   transform-origin: center bottom;
   animation-timing-function: linear;
   &.light {
     background-image: url("/assets/wave-white.png");
-    // background-size: 50% 75px;
+    z-index: 100;
+  }
+  &.dark {
+    background-image: url("/assets/wave-dark.png");
     z-index: 100;
   }
   &.middle {
@@ -149,7 +159,7 @@ body {
     animation-duration: 13s;
     z-index: 50;
   }
-  &.dark {
-    background-image: url("/assets/wave-dark.png");
-  }
+  // &.middle.dark {
+  //   background-image: url("/assets/wave-middle-dark.png");
+  // }
 }

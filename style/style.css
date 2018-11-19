@@ -86,19 +86,10 @@ body {
 }
 
 .staffer-container {
-  height: 100vh;
-  padding-top: 145px;
-  background-size: 100vw 150px;
-  background-repeat: no-repeat;
-}
-.staffer-container.light {
-  background-image: url("/assets/wave-1.png");
+  height: 75vh;
 }
 .staffer-container.light .award {
   color: #1b4062;
-}
-.staffer-container.dark {
-  background-image: url("/assets/wave-2.png");
 }
 .staffer-container.dark .award {
   color: white;
@@ -118,6 +109,13 @@ body {
 }
 .staffer-container .award {
   font-size: 5vmin;
+}
+
+.waves {
+  position: relative;
+  height: 95px;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .wave {
@@ -142,13 +140,14 @@ body {
   background-image: url("/assets/wave-white.png");
   z-index: 100;
 }
+.wave.dark {
+  background-image: url("/assets/wave-dark.png");
+  z-index: 100;
+}
 .wave.middle {
   background-image: url("/assets/wave-middle.png");
   animation-duration: 13s;
   z-index: 50;
-}
-.wave.dark {
-  background-image: url("/assets/wave-dark.png");
 }
 
 /*# sourceMappingURL=style.css.map */

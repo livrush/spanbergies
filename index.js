@@ -4,7 +4,6 @@ const app = angular
     controller: function c(awards) {
       const app = this;
       app.awards = awards.byPerson;
-      console.log(app.awards);
     },
     controllerAs: 'app',
     templateUrl: './components/app.html',
@@ -15,6 +14,7 @@ const app = angular
           nameFirst: 'Adam',
           nameLast: 'Spanberger',
           award: 'Best sign putter-upper and billboard believer',
+          award: 'Most enthusiastic sign guy, and best billboard believer'
         },
         {
           nameFirst: 'Dana',

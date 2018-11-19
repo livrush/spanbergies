@@ -4,7 +4,6 @@ app.component('face', {
   },
   controller: function t() {
     const face = this;
-    console.log(face);
     face.$onInit = function () {
       const first = face.staffer.nameFirst.split(' ').join('-').toLowerCase();
       const last = face.staffer.nameLast.toLowerCase();

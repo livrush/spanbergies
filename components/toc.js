@@ -23,5 +23,9 @@ app.component('tocStaffer', {
     };
   },
   controllerAs: 'staffer',
-  template: `<div class="toc-staffer"><img ng-src="{{staffer.url}}" /></div>`,
+  template: `<div class="toc-staffer">
+    <a ng-href="#{{staffer.first}}-{{staffer.last}}">
+      <img ng-src="{{staffer.url}}" />
+    </a>
+  </div>`,
 });

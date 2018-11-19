@@ -4,7 +4,7 @@ const app = angular
     controller: function c(awards) {
       const app = this;
       // TODO: Use shuffle function here to shuffle people
-      app.awards = awards.byPerson;
+      app.awards = _.shuffle(awards.byPerson);
     },
     controllerAs: 'app',
     templateUrl: './components/app.html',

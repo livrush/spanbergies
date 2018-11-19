@@ -6,6 +6,17 @@
     transform: rotate(360deg);
   }
 }
+@keyframes waves {
+  0% {
+    transform: translateX(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(-25%) scaleY(0.5);
+  }
+  100% {
+    transform: translateX(-50%) scaleY(1);
+  }
+}
 body {
   font-family: Avenir;
   background: #1b4062;
@@ -107,6 +118,37 @@ body {
 }
 .staffer-container .award {
   font-size: 5vmin;
+}
+
+.wave {
+  height: 100px;
+  width: 200vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: 50% 100px;
+  background-repeat: repeat-x;
+  background-position-y: bottom;
+  animation-name: waves;
+  animation-duration: 8s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  transform-origin: center bottom;
+  animation-timing-function: linear;
+}
+.wave.light {
+  background-image: url("/assets/wave-white.png");
+  z-index: 100;
+}
+.wave.middle {
+  background-image: url("/assets/wave-middle.png");
+  animation-duration: 13s;
+  z-index: 50;
+}
+.wave.dark {
+  background-image: url("/assets/wave-dark.png");
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -9,7 +9,7 @@ app.component('toc', {
   templateUrl: '/components/toc.html',
 });
 
-app.component('staffer', {
+app.component('tocStaffer', {
   bindings: {
     first: '<',
     last: '<',

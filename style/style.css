@@ -23,6 +23,10 @@ body {
   color: #8dc6e8;
 }
 
+.header {
+  height: 100vh;
+}
+
 .trophy {
   margin: 25px auto;
   height: 60vmin;

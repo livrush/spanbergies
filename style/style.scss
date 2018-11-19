@@ -16,7 +16,10 @@ body {
   font-family: Avenir;
   background: $blue-dark;
   color: $blue-light;
-  // background-image: linear-gradient(to bottom right, $blue-dark, $blue-light);
+}
+
+.header {
+  height: 100vh;
 }
 
 .trophy {

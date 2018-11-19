@@ -87,17 +87,26 @@ body {
   background-repeat: no-repeat;
   &.light {
     background-image: url("/assets/wave-1.png");
+    .award {
+      color: $blue-dark;
+    }
   }
   &.dark {
     background-image: url("/assets/wave-2.png");
+    .award {
+      color: white;
+    }
   }
   .staffer {
     height: 100%;
-    &.dark {
-      background-color: transparent;
+    .name {
+      font-weight: 900;
     }
     &.light {
       background-color: white;
+    }
+    &.dark {
+      background-color: transparent;
     }
   }
 }

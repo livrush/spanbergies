@@ -83,17 +83,26 @@ body {
 .staffer-container.light {
   background-image: url("/assets/wave-1.png");
 }
+.staffer-container.light .award {
+  color: #1b4062;
+}
 .staffer-container.dark {
   background-image: url("/assets/wave-2.png");
+}
+.staffer-container.dark .award {
+  color: white;
 }
 .staffer-container .staffer {
   height: 100%;
 }
-.staffer-container .staffer.dark {
-  background-color: transparent;
+.staffer-container .staffer .name {
+  font-weight: 900;
 }
 .staffer-container .staffer.light {
   background-color: white;
+}
+.staffer-container .staffer.dark {
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */

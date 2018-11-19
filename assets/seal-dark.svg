@@ -3,7 +3,7 @@
     <style>
       .cls-1 {
         fill:none;
-        stroke:#1b4062;
+        stroke:#FFF;
         stroke-miterlimit:10;
         stroke-width:6px;
       }
@@ -11,10 +11,10 @@
         font-size:66px;
         font-family:Avenir-Black, Avenir;
         font-weight:800;
-        fill:#1b4062;
+        fill:#FFF;
       }
       polygon {
-        fill:#1b4062;
+        fill:#FFF;
       }
     </style>
   </defs>

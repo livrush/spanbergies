@@ -1,6 +1,7 @@
 app.component('face', {
   bindings: {
     staffer: '<',
+    theme: '<',
   },
   controller: function t() {
     const face = this;

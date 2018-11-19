@@ -81,7 +81,7 @@ const app = angular
         {
           nameFirst: 'Zoe',
           nameLast: 'Kozlowski',
-          award: 'Best putting up with food shit',
+          award: 'Best job living even though you couldn\'t eat all the free food',
           emoji: 'no mouth',
         },
         {

@@ -1,146 +1,146 @@
 const app = angular
   .module('spanbergies', [])
   .component('app', {
-    controller: function a() {
+    controller: function c(awards) {
       const app = this;
-      app.info = mockScript;
-      app.separatedPeople = separatePeople(data, 15);
-      app.separatedPeopleV2 = separatePeople(data, 4);
-      app.separatedPeopleV3 = separatePeople(data, 4);
+      app.awards = awards.byPerson;
+      console.log(app.awards);
     },
     controllerAs: 'app',
-    templateUrl: './templates/app.html',
+    templateUrl: './components/app.html',
   })
-  .factory('awards', () => ({
-    byPerson: [{
-        name_first: 'Adam',
-        name_last: 'Spanberger',
-        award: 'Best sign putter-upper and billboard believer',
-      },
-      {
-        name_first: 'Dana',
-        name_last: 'Bye',
-        award: 'Best removal of an undercover operative from office',
-      },
-      {
-        name_first: 'Karen',
-        name_last: 'Mask',
-        award: 'Best creation of long term morale building tool',
-      },
-      {
-        name_first: 'Max',
-        name_last: 'Heyworth',
-        award: 'Best on Slack',
-      },
-      {
-        name_first: 'Justin',
-        name_last: 'Jones',
-        award: 'Best late night whiskey provider',
-      },
-      {
-        name_first: 'Bettina',
-        name_last: 'Weiss',
-        award: 'Best brand ambassador for washable shoes made from recycled plastic who can give you a $20 coupon',
-      },
-      {
-        name_first: 'Sam Louis',
-        name_last: 'Taylor',
-        award: 'Best dancing by the coffee maker',
-      },
-      {
-        name_first: 'MacKenzie',
-        name_last: 'Heidelmark',
-        award: 'Best spying on a staffer while they were pretending to work at home',
-      },
-      {
-        name_first: 'Kayla',
-        name_last: 'Enoch',
-        award: 'Best lifting kids upside down',
-      },
-      {
-        name_first: 'Wynne',
-        name_last: 'Graham',
-        award: 'Best hiding of birthday for selfless reasons',
-      },
-      {
-        name_first: 'Zoe',
-        name_last: 'Kozlowski',
-        award: 'Best putting up with food shit',
-      },
-      {
-        name_first: 'Adriane',
-        name_last: 'Vaughn',
-        award: 'Best sassy faces',
-      },
-      {
-        name_first: 'Emma',
-        name_last: 'Carl',
-        award: 'Best vodka choice',
-      },
-      {
-        name_first: 'Whitney',
-        name_last: 'Holt',
-        award: 'Best job not fucking up a friend online the day after Election Day',
-      },
-      {
-        name_first: 'Kristi',
-        name_last: 'Black',
-        award: 'Best coffee order',
-      },
-      {
-        name_first: 'Michael',
-        name_last: 'Phelan',
-        award: 'Best deflection of a tracker',
-      },
-      {
-        name_first: 'Eliza',
-        name_last: 'Wood',
-        award: 'Best job listening to Republicans for hours without bleeding from your ears',
-      },
-      {
-        name_first: 'Mary Jo',
-        name_last: 'Sheeley',
-        award: 'Best self care basket',
-      },
-      {
-        name_first: 'Nick',
-        name_last: 'Stevens',
-        award: 'Best beard',
-      },
-      {
-        name_first: 'Pat',
-        name_last: 'Dolan',
-        award: 'Best at avoiding photo',
-      },
-      {
-        name_first: 'Dale',
-        name_last: 'Wolf',
-        award: 'Best Westbury Pharmacy customer',
-      },
-      {
-        name_first: 'Jin',
-        name_last: 'Sheeley',
-        award: 'Best dog mom',
-      },
-      {
-        name_first: 'Rusty',
-        name_last: 'Tutton',
-        award: 'Best pinch hitter on the field team',
-      },
-      {
-        name_first: 'Aateeb',
-        name_last: 'Khan',
-        award: 'Best moving to San Francisco without telling anyone',
-      },
-      {
-        name_first: 'Michael',
-        name_last: 'Keegan',
-        award: 'Best positive attitude',
-      },
-      {
-        name_first: 'Abigail',
-        name_last: 'Spanberger',
-        award: 'Best British accent in French',
-      },
-    ]
-  }));
+  .factory('awards', function f() {
+    return {
+      byPerson: [{
+          nameFirst: 'Adam',
+          nameLast: 'Spanberger',
+          award: 'Best sign putter-upper and billboard believer',
+        },
+        {
+          nameFirst: 'Dana',
+          nameLast: 'Bye',
+          award: 'Best removal of an undercover operative from office',
+        },
+        {
+          nameFirst: 'Karen',
+          nameLast: 'Mask',
+          award: 'Best creation of long term morale building tool',
+        },
+        {
+          nameFirst: 'Max',
+          nameLast: 'Heyworth',
+          award: 'Best on Slack',
+        },
+        {
+          nameFirst: 'Justin',
+          nameLast: 'Jones',
+          award: 'Best late night whiskey provider',
+        },
+        {
+          nameFirst: 'Bettina',
+          nameLast: 'Weiss',
+          award: 'Best brand ambassador for washable shoes made from recycled plastic who can give you a $20 coupon',
+        },
+        {
+          nameFirst: 'Sam Louis',
+          nameLast: 'Taylor',
+          award: 'Best dancing by the coffee maker',
+        },
+        {
+          nameFirst: 'MacKenzie',
+          nameLast: 'Heidelmark',
+          award: 'Best spying on a staffer while they were pretending to work at home',
+        },
+        {
+          nameFirst: 'Kayla',
+          nameLast: 'Enoch',
+          award: 'Best lifting kids upside down',
+        },
+        {
+          nameFirst: 'Wynne',
+          nameLast: 'Graham',
+          award: 'Best hiding of birthday for selfless reasons',
+        },
+        {
+          nameFirst: 'Zoe',
+          nameLast: 'Kozlowski',
+          award: 'Best putting up with food shit',
+        },
+        {
+          nameFirst: 'Adriane',
+          nameLast: 'Vaughn',
+          award: 'Best sassy faces',
+        },
+        {
+          nameFirst: 'Emma',
+          nameLast: 'Carl',
+          award: 'Best vodka choice',
+        },
+        {
+          nameFirst: 'Whitney',
+          nameLast: 'Holt',
+          award: 'Best job not fucking up a friend online the day after Election Day',
+        },
+        {
+          nameFirst: 'Kristi',
+          nameLast: 'Black',
+          award: 'Best coffee order',
+        },
+        {
+          nameFirst: 'Michael',
+          nameLast: 'Phelan',
+          award: 'Best deflection of a tracker',
+        },
+        {
+          nameFirst: 'Eliza',
+          nameLast: 'Wood',
+          award: 'Best job listening to Republicans for hours without bleeding from your ears',
+        },
+        {
+          nameFirst: 'Mary Jo',
+          nameLast: 'Sheeley',
+          award: 'Best self care basket',
+        },
+        {
+          nameFirst: 'Nick',
+          nameLast: 'Stevens',
+          award: 'Best beard',
+        },
+        {
+          nameFirst: 'Pat',
+          nameLast: 'Dolan',
+          award: 'Best at avoiding photo',
+        },
+        {
+          nameFirst: 'Dale',
+          nameLast: 'Wolf',
+          award: 'Best Westbury Pharmacy customer',
+        },
+        {
+          nameFirst: 'Jin',
+          nameLast: 'Sheeley',
+          award: 'Best dog mom',
+        },
+        {
+          nameFirst: 'Rusty',
+          nameLast: 'Tutton',
+          award: 'Best pinch hitter on the field team',
+        },
+        {
+          nameFirst: 'Aateeb',
+          nameLast: 'Khan',
+          award: 'Best moving to San Francisco without telling anyone',
+        },
+        {
+          nameFirst: 'Michael',
+          nameLast: 'Keegan',
+          award: 'Best positive attitude',
+        },
+        {
+          nameFirst: 'Abigail',
+          nameLast: 'Spanberger',
+          award: 'Best British accent in French',
+        },
+      ]
+    }
+  });

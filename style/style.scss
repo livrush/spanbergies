@@ -1,6 +1,26 @@
 $blue-light: #8dc6e8;
 $blue-dark:  #1b4062;
 
-.blue {
+body {
+  font-family: Avenir;
+  background: $blue-dark;
   color: $blue-light;
+}
+
+.trophy {
+  margin: 25px auto;
+  height: 75vmin;
+  width: 75vmin;
+  text-align: center;
+  position: relative;
+  .figure {
+    height: 100%;
+  }
+  .title {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    animation-duration: 2.2s;
+  }
 }

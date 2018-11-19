@@ -1,5 +1,25 @@
-.blue {
+body {
+  font-family: Avenir;
+  background: #1b4062;
   color: #8dc6e8;
+}
+
+.trophy {
+  margin: 25px auto;
+  height: 75vmin;
+  width: 75vmin;
+  text-align: center;
+  position: relative;
+}
+.trophy .figure {
+  height: 100%;
+}
+.trophy .title {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  animation-duration: 2.2s;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -22,87 +22,125 @@ const app = angular
           nameLast: 'Spanberger',
           // award: 'Best sign putter-upper and billboard believer',
           award: 'Best billboard believer',
-          emoji: 'a sign??',
+          emojis: [
+            'a sign??',
+          ],
         },
         {
           nameFirst: 'Dana',
           nameLast: 'Bye',
-          award: 'Best removal of an undercover operative from office',
-          emoji: 'police siren',
+          // award: 'Best removal of an undercover operative',
+          award: 'Best dismissing undercover operative',
+          emojis: [
+            'female police officer',
+            'siren',
+          ],
         },
         {
           nameFirst: 'Karen',
           nameLast: 'Mask',
-          award: 'Best creation of long term morale building tool',
-          emoji: 'good morning good night',
+          // award: 'Best creation of long term morale building tool',
+          award: 'Best morale building tool',
+          emojis: [
+            'good morning',
+            'good night',
+            'book',
+          ],
         },
         {
           nameFirst: 'Max',
           nameLast: 'Heyworth',
-          award: 'Best joker on Slack',
-          emoji: 'laughing',
+          award: 'Best Slack-er',
+          emojis: [
+            'laughing',
+            'slack',
+          ],
         },
         {
           nameFirst: 'Justin',
           nameLast: 'Jones',
           award: 'Best late night whiskey provider',
-          emoji: 'whiskey',
+          emojis: [
+            'whiskey',
+          ],
         },
         {
           nameFirst: 'Bettina',
           nameLast: 'Weiss',
-          award: 'Best brand ambassador for washable shoes made from recycled plastic who can give you a $20 coupon',
-          award: 'Best brand ambassador for shoes made from recycled plastic',
-          emoji: 'shoes',
+          // award: 'Best brand ambassador for washable shoes made from recycled plastic who can give you a $20 coupon',
+          award: 'Best recycled-plastic-shoe brand ambassador',
+          emojis: [
+            'shoes',
+            'recycle',
+          ],
         },
         {
           nameFirst: 'Sam Louis',
           nameLast: 'Taylor',
           award: 'Best dancing by the coffee maker',
-          emoji: 'dancing guy',
+          emojis: [
+            'dancing guy',
+            'coffee',
+          ],
         },
         {
           nameFirst: 'MacKenzie',
           nameLast: 'Heidelmark',
           // award: 'Best spying on a staffer while they were pretending to work at home',
-          award: 'Best spying on a staffer',
-          emoji: 'spy emoji, or binoculars',
+          award: 'Best cop-buddy movie style spying on a staffer',
+          emojis: [
+            'spy emojis',
+            'or binoculars',
+          ],
         },
         {
           nameFirst: 'Kayla',
           nameLast: 'Enoch',
           award: 'Best lifting kids upside down',
-          emoji: 'upside down face',
+          emojis: [
+            'upside down face',
+          ],
         },
         {
           nameFirst: 'Wynne',
           nameLast: 'Graham',
-          award: 'Best hiding of birthday for selfless reasons',
-          emoji: 'birthday cake',
+          award: 'Best hiding birthday for selfless reasons',
+          emojis: [
+            'birthday cake',
+          ],
         },
         {
           nameFirst: 'Zoe',
           nameLast: 'Kozlowski',
-          award: 'Best job living even though you couldn\'t eat all the free food',
-          emoji: 'no mouth',
+          award: 'Best being around inedible free food',
+          emojis: [
+            'no mouth',
+          ],
         },
         {
           nameFirst: 'Adriane',
           nameLast: 'Vaughn',
           award: 'Best sassy faces',
-          emoji: 'sassy face',
+          emojis: [
+            'sassy face',
+          ],
         },
         {
           nameFirst: 'Emma',
           nameLast: 'Carl',
           award: 'Best vodka choice',
-          emoji: 'lemon, strawberry',
+          emojis: [
+            'lemon, strawberry',
+          ],
         },
         {
           nameFirst: 'Whitney',
           nameLast: 'Holt',
-          award: 'Best job not fucking up a friend online the day after Election Day',
-          emoji: 'friendly face',
+          // award: 'Best job not fucking up a friend online the day after Election Day',
+          award: 'Best spotting a tracker',
+          emojis: [
+            'friendly face',
+          ],
         },
         {
           nameFirst: 'Kristi',
@@ -110,73 +148,103 @@ const app = angular
           award: 'Best coffee order',
           // award: 'Best dancing on the bed',
           // award: 'Best laptop login password',
-          emoji: 'coffee',
+          emojis: [
+            'coffee',
+          ],
         },
         {
           nameFirst: 'Michael',
           nameLast: 'Phelan',
           award: 'Best deflection of a tracker',
-          emoji: 'open hand',
+          emojis: [
+            'open hand',
+          ],
         },
         {
           nameFirst: 'Eliza',
           nameLast: 'Wood',
-          award: 'Best job listening to Republicans for hours without bleeding from your ears',
-          emoji: 'headphones',
+          // award: 'Best job listening to Republicans for hours without bleeding from your ears',
+          award: 'Best listening to Republicans',
+          emojis: [
+            'headphones',
+          ],
         },
         {
           nameFirst: 'Mary Jo',
           nameLast: 'Sheeley',
           award: 'Best self care basket',
-          emoji: 'basket',
+          emojis: [
+            'basket',
+          ],
         },
         {
           nameFirst: 'Nick',
           nameLast: 'Stevens',
           award: 'Best beard',
-          emoji: 'beard man',
+          emojis: [
+            'beard man',
+          ],
         },
         {
           nameFirst: 'Pat',
           nameLast: 'Dolan',
-          award: 'Best at avoiding photo',
-          emoji: 'wind that looks like fart',
+          award: 'Best avoiding photos',
+          emojis: [
+            'dash',
+            'camera',
+          ],
         },
         {
           nameFirst: 'Dale',
           nameLast: 'Wolf',
           award: 'Best Westbury Pharmacy customer',
-          emoji: 'candy',
+          emojis: [
+            'candy',
+            'candy',
+          ],
         },
         {
           nameFirst: 'Jin',
           nameLast: 'Sheeley',
           award: 'Best dog mom',
-          emoji: 'dog',
+          emojis: [
+            'dog',
+          ],
         },
         {
           nameFirst: 'Rusty',
           nameLast: 'Tutton',
-          award: 'Best pinch hitter on the field team',
-          emoji: 'baseball bat and ball',
+          award: 'Best pinch hitter',
+          emojis: [
+            'baseball bat and ball',
+          ],
         },
         {
           nameFirst: 'Aateeb',
           nameLast: 'Khan',
-          award: 'Best moving to San Francisco without telling anyone',
-          emoji: 'airplane',
+          // award: 'Best moving to San Francisco without telling anyone',
+          award: 'Best silent moving to SF',
+          emojis: [
+            'airplane',
+          ],
         },
         {
           nameFirst: 'Michael',
           nameLast: 'Keegan',
           award: 'Best positive attitude',
-          emoji: 'happy face',
+          emojis: [
+            'happy face',
+          ],
         },
         {
           nameFirst: 'Abigail',
           nameLast: 'Spanberger',
           award: 'Best British accent in French',
-          emoji: 'monocle',
+          emojis: [
+            'monocle',
+            'french flag',
+            'british flag',
+          ],
         },
         // TODO: add Arika and Ryan??
         // TODO: add Andrea Goulet??

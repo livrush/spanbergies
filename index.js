@@ -52,6 +52,7 @@ const app = angular
           nameFirst: 'Bettina',
           nameLast: 'Weiss',
           award: 'Best brand ambassador for washable shoes made from recycled plastic who can give you a $20 coupon',
+          award: 'Best brand ambassador for shoes made from recycled plastic',
           emoji: 'shoes',
         },
         {
@@ -63,7 +64,8 @@ const app = angular
         {
           nameFirst: 'MacKenzie',
           nameLast: 'Heidelmark',
-          award: 'Best spying on a staffer while they were pretending to work at home',
+          // award: 'Best spying on a staffer while they were pretending to work at home',
+          award: 'Best spying on a staffer',
           emoji: 'spy emoji, or binoculars',
         },
         {
@@ -106,6 +108,8 @@ const app = angular
           nameFirst: 'Kristi',
           nameLast: 'Black',
           award: 'Best coffee order',
+          // award: 'Best dancing on the bed',
+          // award: 'Best laptop login password',
           emoji: 'coffee',
         },
         {
@@ -174,5 +178,7 @@ const app = angular
           award: 'Best British accent in French',
           emoji: 'monocle',
         },
+        // TODO: add Arika and Ryan??
+        // TODO: add Andrea Goulet??
       ]
   });

@@ -3,6 +3,7 @@ const app = angular
   .component('app', {
     controller: function c(awards) {
       const app = this;
+      // TODO: Use shuffle function here to shuffle people
       app.awards = awards.byPerson;
     },
     controllerAs: 'app',
@@ -12,6 +13,8 @@ const app = angular
     return {
       styleBoolean: (index) => index % 2 === 0,
     };
+
+    // TODO: Add shuffle function here
   })
   .service('awards', function f() {
       this.byPerson = [{

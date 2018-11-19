@@ -1,6 +1,11 @@
 $blue-light: #8dc6e8;
 $blue-dark:  #1b4062;
 
+@keyframes spin {
+  from { transform: rotate(0deg); };
+  to { transform: rotate(360deg); };
+}
+
 body {
   font-family: Avenir;
   background: $blue-dark;
@@ -37,7 +42,6 @@ body {
   justify-content: center;
   align-items: center;
   img {
-
     // margin: 1vmin;
     height: 10vmin;
     border-radius: 100%;
@@ -76,7 +80,25 @@ body {
   }
 }
 
-@keyframes spin {
-  from { transform: rotate(0deg); };
-  to { transform: rotate(360deg); };
+.staffer-container {
+  height: 100vh;
+  padding-top: 120px;
+  background-size: 100vw 150px;
+  background-repeat: no-repeat;
+  &.light {
+    background-image: url("/assets/wave-1.png");
+  }
+  &.dark {
+    background-image: url("/assets/wave-2.png");
+  }
+  .staffer {
+    height: 100%;
+    &.dark {
+      background-color: transparent;
+    }
+    &.light {
+      background-color: white;
+    }
+  }
 }
+

@@ -1,3 +1,11 @@
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 body {
   font-family: Avenir;
   background: #1b4062;
@@ -66,13 +74,26 @@ body {
   z-index: 50;
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.staffer-container {
+  height: 100vh;
+  padding-top: 120px;
+  background-size: 100vw 150px;
+  background-repeat: no-repeat;
+}
+.staffer-container.light {
+  background-image: url("/assets/wave-1.png");
+}
+.staffer-container.dark {
+  background-image: url("/assets/wave-2.png");
+}
+.staffer-container .staffer {
+  height: 100%;
+}
+.staffer-container .staffer.dark {
+  background-color: transparent;
+}
+.staffer-container .staffer.light {
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,9 +8,13 @@ const app = angular
     controllerAs: 'app',
     templateUrl: './components/app.html',
   })
-  .factory('awards', function f() {
+  .factory('logic', function() {
     return {
-      byPerson: [{
+      themeBoolean: (index) => index / 2 === 0,
+    };
+  })
+  .service('awards', function f() {
+      this.byPerson = [{
           nameFirst: 'Adam',
           nameLast: 'Spanberger',
           award: 'Best sign putter-upper and billboard believer',
@@ -142,5 +146,4 @@ const app = angular
           award: 'Best British accent in French',
         },
       ]
-    }
   });

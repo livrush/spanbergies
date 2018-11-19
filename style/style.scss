@@ -51,3 +51,15 @@ body {
     }
   }
 }
+
+.staffer-face {
+  .face {
+    height: 50vmin;
+    width: 50vmin;
+  }
+  .seal {
+    height: 75vmin;
+    width: 75vmin;
+    position: absolute;
+  }
+}

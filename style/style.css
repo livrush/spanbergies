@@ -44,4 +44,14 @@ body {
   cursor: pointer;
 }
 
+.staffer-face .face {
+  height: 50vmin;
+  width: 50vmin;
+}
+.staffer-face .seal {
+  height: 75vmin;
+  width: 75vmin;
+  position: absolute;
+}
+
 /*# sourceMappingURL=style.css.map */

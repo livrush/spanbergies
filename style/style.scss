@@ -9,8 +9,8 @@ body {
 
 .trophy {
   margin: 25px auto;
-  height: 75vmin;
-  width: 75vmin;
+  height: 60vmin;
+  width: 60vmin;
   text-align: center;
   position: relative;
   .figure {
@@ -22,5 +22,32 @@ body {
     bottom: 0px;
     left: 0px;
     animation-duration: 2.2s;
+  }
+}
+
+.table-of-contents {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.toc-staffer {
+  height: 12.5vmin;
+  width: 12.5vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+
+    // margin: 1vmin;
+    height: 10vmin;
+    border-radius: 100%;
+    transition: 100ms;
+    &:hover {
+      height: 15vmin;
+      // position: relative;
+      // top: -2.5vmin;
+      // left: -2.5vmin;
+      cursor: pointer;
+    }
   }
 }

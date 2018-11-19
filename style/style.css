@@ -6,8 +6,8 @@ body {
 
 .trophy {
   margin: 25px auto;
-  height: 75vmin;
-  width: 75vmin;
+  height: 60vmin;
+  width: 60vmin;
   text-align: center;
   position: relative;
 }
@@ -20,6 +20,28 @@ body {
   bottom: 0px;
   left: 0px;
   animation-duration: 2.2s;
+}
+
+.table-of-contents {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.toc-staffer {
+  height: 12.5vmin;
+  width: 12.5vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toc-staffer img {
+  height: 10vmin;
+  border-radius: 100%;
+  transition: 100ms;
+}
+.toc-staffer img:hover {
+  height: 15vmin;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

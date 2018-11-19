@@ -20,8 +20,8 @@ const app = angular
       this.byPerson = [{
           nameFirst: 'Adam',
           nameLast: 'Spanberger',
-          award: 'Best sign putter-upper and billboard believer',
-          award: 'Most enthusiastic sign guy, and best billboard believer',
+          // award: 'Best sign putter-upper and billboard believer',
+          award: 'Best billboard believer',
           emoji: 'a sign??',
         },
         {

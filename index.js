@@ -10,7 +10,7 @@ const app = angular
   })
   .factory('logic', function() {
     return {
-      themeBoolean: (index) => index / 2 === 0,
+      styleBoolean: (index) => index % 2 === 0,
     };
   })
   .service('awards', function f() {

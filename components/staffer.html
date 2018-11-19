@@ -1,5 +1,16 @@
 <div ng-class="staffer.style" class="staffer-container">
   <div ng-class="staffer.style" class="staffer">
-    <face staffer="staffer.details" theme="staffer.style" />
+    <div class="container">
+
+      <div class="row h-100">
+        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+          <face staffer="staffer.details" theme="staffer.style" />
+        </div>
+        <div class="col-12 col-md-6 text-center d-flex align-items-center justify-content-center flex-column">
+          <h1 class="name">{{staffer.details.nameFirst}} {{staffer.details.nameLast}}</h1>
+          <h2 class="award">{{staffer.details.award}}</h2>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

@@ -250,9 +250,9 @@ const app = angular
           award: 'Best beard',
           icons: [
             'beard',
+            'bearded',
             'beard',
-            'beard',
-            'beard',
+            'bearded',
             'beard',
           ],
         },

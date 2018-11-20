@@ -119,7 +119,7 @@ const app = angular
         },
         {
           nameFirst: 'Adriane',
-          nameLast: 'Vaughn',
+          nameLast: 'Vaughan',
           award: 'Best sassy faces',
           emojis: [
             'sassy face',

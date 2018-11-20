@@ -22,7 +22,7 @@ const app = angular
           nameLast: 'Spanberger',
           // award: 'Best sign putter-upper and billboard believer',
           award: 'Best billboard believer',
-          emojis: [
+          icons: [
             'billboard',
           ],
         },
@@ -31,7 +31,7 @@ const app = angular
           nameLast: 'Bye',
           // award: 'Best removal of an undercover operative',
           award: 'Best dismissing undercover operative',
-          emojis: [
+          icons: [
             'police',
             'siren',
           ],
@@ -41,7 +41,7 @@ const app = angular
           nameLast: 'Mask',
           // award: 'Best creation of long term morale building tool',
           award: 'Best morale building tool',
-          emojis: [
+          icons: [
             'good morning',
             'good night',
             'book',
@@ -51,7 +51,7 @@ const app = angular
           nameFirst: 'Max',
           nameLast: 'Heyworth',
           award: 'Best Slack-er',
-          emojis: [
+          icons: [
             'smile',
             'slack',
           ],
@@ -60,7 +60,7 @@ const app = angular
           nameFirst: 'Justin',
           nameLast: 'Jones',
           award: 'Best late night whiskey provider',
-          emojis: [
+          icons: [
             'scotch',
             'shots',
           ],
@@ -70,7 +70,7 @@ const app = angular
           nameLast: 'Weiss',
           // award: 'Best brand ambassador for washable shoes made from recycled plastic who can give you a $20 coupon',
           award: 'Best recycled-plastic-shoe brand ambassador',
-          emojis: [
+          icons: [
             'shoes',
             'recycle',
           ],
@@ -79,7 +79,7 @@ const app = angular
           nameFirst: 'Sam Louis',
           nameLast: 'Taylor',
           award: 'Best dancing by the coffee maker',
-          emojis: [
+          icons: [
             'dance',
             'coffee',
           ],
@@ -89,7 +89,7 @@ const app = angular
           nameLast: 'Heidelmark',
           // award: 'Best spying on a staffer while they were pretending to work at home',
           award: 'Best cop-buddy movie style spying on a staffer',
-          emojis: [
+          icons: [
             'binoculars',
           ],
         },
@@ -97,7 +97,7 @@ const app = angular
           nameFirst: 'Kayla',
           nameLast: 'Enoch',
           award: 'Best lifting kids upside down',
-          emojis: [
+          icons: [
             'hold-up-kid',
           ],
         },
@@ -105,7 +105,7 @@ const app = angular
           nameFirst: 'Wynne',
           nameLast: 'Graham',
           award: 'Best hiding birthday for selfless reasons',
-          emojis: [
+          icons: [
             'cake',
             'balloons',
           ],
@@ -114,7 +114,7 @@ const app = angular
           nameFirst: 'Zoe',
           nameLast: 'Kozlowski',
           award: 'Best being around inedible free food',
-          emojis: [
+          icons: [
             'no mouth',
           ],
         },
@@ -122,7 +122,7 @@ const app = angular
           nameFirst: 'Adriane',
           nameLast: 'Vaughan',
           award: 'Best sassy faces',
-          emojis: [
+          icons: [
             'sassy face',
           ],
         },
@@ -130,7 +130,7 @@ const app = angular
           nameFirst: 'Emma',
           nameLast: 'Carl',
           award: 'Best vodka choice',
-          emojis: [
+          icons: [
             'lemon',
             'strawberry',
           ],
@@ -140,7 +140,7 @@ const app = angular
           nameLast: 'Holt',
           // award: 'Best job not fucking up a friend online the day after Election Day',
           award: 'Best spotting a tracker',
-          emojis: [
+          icons: [
             'search',
           ],
         },
@@ -150,7 +150,7 @@ const app = angular
           award: 'Best coffee order',
           // award: 'Best dancing on the bed',
           // award: 'Best laptop login password',
-          emojis: [
+          icons: [
             'coffee',
           ],
         },
@@ -158,8 +158,8 @@ const app = angular
           nameFirst: 'Michael',
           nameLast: 'Phelan',
           award: 'Best deflection of a tracker',
-          emojis: [
-            'open hand',
+          icons: [
+            'no-entry',
           ],
         },
         {
@@ -167,7 +167,7 @@ const app = angular
           nameLast: 'Wood',
           // award: 'Best job listening to Republicans for hours without bleeding from your ears',
           award: 'Best listening to Republicans',
-          emojis: [
+          icons: [
             'headphones',
           ],
         },
@@ -176,7 +176,7 @@ const app = angular
           nameLast: 'Sheeley',
           award: 'Best self care basket',
           award: 'Best office mom',
-          emojis: [
+          icons: [
             'medal',
             'flowers',
           ],
@@ -185,7 +185,7 @@ const app = angular
           nameFirst: 'Nick',
           nameLast: 'Stevens',
           award: 'Best beard',
-          emojis: [
+          icons: [
             'beard',
           ],
         },
@@ -193,7 +193,7 @@ const app = angular
           nameFirst: 'Pat',
           nameLast: 'Dolan',
           award: 'Best avoiding photos',
-          emojis: [
+          icons: [
             'wind',
             'camera',
           ],
@@ -202,7 +202,7 @@ const app = angular
           nameFirst: 'Dale',
           nameLast: 'Wolf',
           award: 'Best Westbury Pharmacy customer',
-          emojis: [
+          icons: [
             'mint',
             'candy',
           ],
@@ -211,7 +211,7 @@ const app = angular
           nameFirst: 'Jin',
           nameLast: 'Sheeley',
           award: 'Best dog mom',
-          emojis: [
+          icons: [
             'dog',
           ],
         },
@@ -219,7 +219,7 @@ const app = angular
           nameFirst: 'Rusty',
           nameLast: 'Tutton',
           award: 'Best pinch hitter',
-          emojis: [
+          icons: [
             'baseball',
             'cap',
           ],
@@ -229,7 +229,7 @@ const app = angular
           nameLast: 'Khan',
           // award: 'Best moving to San Francisco without telling anyone',
           award: 'Best silent moving to SF',
-          emojis: [
+          icons: [
             'airplane',
           ],
         },
@@ -237,7 +237,7 @@ const app = angular
           nameFirst: 'Michael',
           nameLast: 'Keegan',
           award: 'Best positive attitude',
-          emojis: [
+          icons: [
             'happy face',
           ],
         },
@@ -245,7 +245,7 @@ const app = angular
           nameFirst: 'Abigail',
           nameLast: 'Spanberger',
           award: 'Best British accent in French',
-          emojis: [
+          icons: [
             // 'monocle',
             'france',
             'union-jack',

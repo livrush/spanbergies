@@ -15,6 +15,9 @@ app.component('icon', {
   },
   controller: function t() {
     const icon = this;
+    icon.$onInit = function() {
+      icon.url = `./assets/icons/${icon.name}.svg`;
+    }
   },
   controllerAs: 'icon',
   templateUrl: './components/icon.html',

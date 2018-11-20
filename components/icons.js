@@ -8,3 +8,14 @@ app.component('icons', {
   controllerAs: 'icons',
   templateUrl: './components/icons.html',
 });
+
+app.component('icon', {
+  bindings: {
+    name: '<',
+  },
+  controller: function t() {
+    const icon = this;
+  },
+  controllerAs: 'icon',
+  templateUrl: './components/icon.html',
+});

@@ -23,6 +23,11 @@ body {
   color: $blue-light;
 }
 
+.strong {
+  color: $blue-dark;
+  font-weight: 900;
+}
+
 .header {
   height: 100vh;
 }
@@ -45,9 +50,38 @@ body {
   }
 }
 
+.table-of-contents-container {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-around;
+  // align-items: center;
+  position: fixed;
+  top: 0;
+  // background: rgba(255,255,255,0.9);
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+}
+
 .table-of-contents {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 5vw;
+  background: rgba(255,255,255,0.9);
+  width: 90vw;
+  height: calc(100vh - 5vw);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  z-index: 999;
+  padding: 5vw;
+  .staffers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .toc-staffer {

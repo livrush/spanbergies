@@ -156,15 +156,15 @@ body {
   transform-origin: center bottom;
   animation-timing-function: linear;
   &.light {
-    background-image: url("/assets/wave-white.png");
+    background-image: url("../assets/wave-white.png");
     z-index: 100;
   }
   &.dark {
-    background-image: url("/assets/wave-dark.png");
+    background-image: url("../assets/wave-dark.png");
     z-index: 100;
   }
   &.middle {
-    background-image: url("/assets/wave-middle.png");
+    background-image: url("../assets/wave-middle.png");
     animation-duration: 13s;
     z-index: 50;
   }

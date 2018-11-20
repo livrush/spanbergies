@@ -124,9 +124,9 @@ const app = angular
           award: 'Best lifting kids upside down',
           icons: [
             'girl',
-            'lift',
+            'lifting',
             'girl',
-            'lift',
+            'lifting',
             'girl',
           ],
         },

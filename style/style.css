@@ -150,15 +150,15 @@ body {
   animation-timing-function: linear;
 }
 .wave.light {
-  background-image: url("/assets/wave-white.png");
+  background-image: url("../assets/wave-white.png");
   z-index: 100;
 }
 .wave.dark {
-  background-image: url("/assets/wave-dark.png");
+  background-image: url("../assets/wave-dark.png");
   z-index: 100;
 }
 .wave.middle {
-  background-image: url("/assets/wave-middle.png");
+  background-image: url("../assets/wave-middle.png");
   animation-duration: 13s;
   z-index: 50;
 }

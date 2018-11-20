@@ -73,6 +73,7 @@ body {
   position: absolute;
   z-index: 100;
   animation-delay: 0.5s;
+  overflow: hidden;
 }
 .staffer-face .seal {
   height: 100%;
@@ -152,6 +153,13 @@ body {
   background-image: url("/assets/wave-middle.png");
   animation-duration: 13s;
   z-index: 50;
+}
+
+.icon {
+  position: absolute;
+}
+.icon img {
+  height: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -73,6 +73,7 @@ body {
     position: absolute;
     z-index: 100;
     animation-delay: 0.5s;
+    overflow: hidden;
   }
   .seal {
     height: 100%;
@@ -166,3 +167,11 @@ body {
   //   background-image: url("/assets/wave-middle-dark.png");
   // }
 }
+
+.icon {
+  position: absolute;
+  img {
+    height: 50px;
+  }
+}
+

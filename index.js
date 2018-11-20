@@ -225,9 +225,9 @@ const app = angular
           award: 'Best long-term exposure to Republicans',
           icons: [
             'headphones',
+            'elephant',
             'headphones',
-            'headphones',
-            'headphones',
+            'elephant',
             'headphones',
           ],
         },

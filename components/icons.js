@@ -6,5 +6,5 @@ app.component('icons', {
     const icons = this;
   },
   controllerAs: 'icons',
-  templateUrl: '/components/icons.html',
+  templateUrl: './icons.html',
 });

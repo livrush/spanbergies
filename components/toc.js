@@ -6,7 +6,7 @@ app.component('toc', {
     const toc = this;
   },
   controllerAs: 'toc',
-  templateUrl: './components/toc.html',
+  templateUrl: './toc.html',
 });
 
 app.component('tocStaffer', {

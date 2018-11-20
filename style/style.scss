@@ -177,30 +177,32 @@ body {
 .icon {
   position: relative;
   width: 100vw;
+  overflow: hidden;
   img {
     position: relative;
     top: 0;
     height: 10vh;
     margin: 1.5vh;
     animation-name: slide-left;
-    animation-duration: 5s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    opacity: 0.3;
   }
 }
 
 icon:nth-child(1) .icon img {
-  animation-delay: -4.5s
+  animation-delay: -13.5s
 }
 icon:nth-child(2) .icon img {
-  animation-delay: -1.5s
+  animation-delay: -4.5s
 }
 icon:nth-child(3) .icon img {
-  animation-delay: -2.5s
+  animation-delay: -7.5s
 }
 icon:nth-child(4) .icon img {
-  animation-delay: -3.5s
+  animation-delay: -10.5s
 }
 icon:nth-child(5) .icon img {
-  animation-delay: -.5s
+  animation-delay: -1.5s
 }

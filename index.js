@@ -148,9 +148,9 @@ const app = angular
           award: 'Best survival around inedible free food',
           icons: [
             'groceries',
-            'no-mouth',
+            'zip-mouth',
             'groceries',
-            'no-mouth',
+            'zip-mouth',
             'groceries',
           ],
         },
@@ -212,9 +212,9 @@ const app = angular
           award: 'Best deflection of a tracker',
           icons: [
             'no-entry',
-            'zip-mouth',
+            'no-mouth',
             'no-entry',
-            'zip-mouth',
+            'no-mouth',
             'no-entry',
           ],
         },

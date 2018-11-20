@@ -23,7 +23,7 @@ const app = angular
           // award: 'Best sign putter-upper and billboard believer',
           award: 'Best billboard believer',
           emojis: [
-            'a sign??',
+            'billboard',
           ],
         },
         {
@@ -32,7 +32,7 @@ const app = angular
           // award: 'Best removal of an undercover operative',
           award: 'Best dismissing undercover operative',
           emojis: [
-            'female police officer',
+            'police',
             'siren',
           ],
         },
@@ -52,7 +52,7 @@ const app = angular
           nameLast: 'Heyworth',
           award: 'Best Slack-er',
           emojis: [
-            'laughing',
+            'smile',
             'slack',
           ],
         },
@@ -61,7 +61,8 @@ const app = angular
           nameLast: 'Jones',
           award: 'Best late night whiskey provider',
           emojis: [
-            'whiskey',
+            'scotch',
+            'shots',
           ],
         },
         {
@@ -79,7 +80,7 @@ const app = angular
           nameLast: 'Taylor',
           award: 'Best dancing by the coffee maker',
           emojis: [
-            'dancing guy',
+            'dance',
             'coffee',
           ],
         },
@@ -89,8 +90,7 @@ const app = angular
           // award: 'Best spying on a staffer while they were pretending to work at home',
           award: 'Best cop-buddy movie style spying on a staffer',
           emojis: [
-            'spy emojis',
-            'or binoculars',
+            'binoculars',
           ],
         },
         {
@@ -98,7 +98,7 @@ const app = angular
           nameLast: 'Enoch',
           award: 'Best lifting kids upside down',
           emojis: [
-            'upside down face',
+            'hold-up-kid',
           ],
         },
         {
@@ -106,7 +106,8 @@ const app = angular
           nameLast: 'Graham',
           award: 'Best hiding birthday for selfless reasons',
           emojis: [
-            'birthday cake',
+            'cake',
+            'balloons',
           ],
         },
         {
@@ -130,7 +131,8 @@ const app = angular
           nameLast: 'Carl',
           award: 'Best vodka choice',
           emojis: [
-            'lemon, strawberry',
+            'lemon',
+            'strawberry',
           ],
         },
         {
@@ -139,7 +141,7 @@ const app = angular
           // award: 'Best job not fucking up a friend online the day after Election Day',
           award: 'Best spotting a tracker',
           emojis: [
-            'friendly face',
+            'search',
           ],
         },
         {
@@ -173,8 +175,10 @@ const app = angular
           nameFirst: 'Mary Jo',
           nameLast: 'Sheeley',
           award: 'Best self care basket',
+          award: 'Best office mom',
           emojis: [
-            'basket',
+            'medal',
+            'flowers',
           ],
         },
         {
@@ -182,7 +186,7 @@ const app = angular
           nameLast: 'Stevens',
           award: 'Best beard',
           emojis: [
-            'beard man',
+            'beard',
           ],
         },
         {
@@ -190,7 +194,7 @@ const app = angular
           nameLast: 'Dolan',
           award: 'Best avoiding photos',
           emojis: [
-            'dash',
+            'wind',
             'camera',
           ],
         },
@@ -199,7 +203,7 @@ const app = angular
           nameLast: 'Wolf',
           award: 'Best Westbury Pharmacy customer',
           emojis: [
-            'candy',
+            'mint',
             'candy',
           ],
         },
@@ -216,7 +220,8 @@ const app = angular
           nameLast: 'Tutton',
           award: 'Best pinch hitter',
           emojis: [
-            'baseball bat and ball',
+            'baseball',
+            'cap',
           ],
         },
         {
@@ -241,9 +246,9 @@ const app = angular
           nameLast: 'Spanberger',
           award: 'Best British accent in French',
           emojis: [
-            'monocle',
-            'french flag',
-            'british flag',
+            // 'monocle',
+            'france',
+            'union-jack',
           ],
         },
         // TODO: add Arika and Ryan??

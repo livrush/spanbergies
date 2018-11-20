@@ -6,7 +6,7 @@ app.component('toc', {
     const toc = this;
   },
   controllerAs: 'toc',
-  templateUrl: '/components/toc.html',
+  templateUrl: './components/toc.html',
 });
 
 app.component('tocStaffer', {
@@ -19,7 +19,7 @@ app.component('tocStaffer', {
     staffer.$onInit = function() {
       const first = staffer.first.split(' ').join('-').toLowerCase();
       const last = staffer.last.toLowerCase();
-      staffer.url = '/assets/staff-photos/' + [first, last].join('-') + '.png';
+      staffer.url = './assets/staff-photos/' + [first, last].join('-') + '.png';
     };
   },
   controllerAs: 'staffer',

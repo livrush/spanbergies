@@ -17,6 +17,14 @@
     transform: translateX(-50%) scaleY(1);
   }
 }
+@keyframes slide-left {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -10vh;
+  }
+}
 body {
   font-family: Avenir;
   background: #1b4062;
@@ -155,11 +163,26 @@ body {
   z-index: 50;
 }
 
-.icon {
+.icons {
   position: absolute;
 }
+
+.icon {
+  position: relative;
+  width: 100vw;
+}
 .icon img {
-  height: 50px;
+  position: relative;
+  top: 0;
+  height: 10vh;
+  margin: 1.5vh;
+  animation-name: slide-left;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon img:nth-child(2) {
+  animation-delay: -1s;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,6 +12,11 @@ $blue-dark:  #1b4062;
   100% { transform: translateX(-50%) scaleY(1); };
 }
 
+@keyframes slide-left {
+  from { left: 100%;  }
+  to { left: -10vh;  }
+}
+
 body {
   font-family: Avenir;
   background: $blue-dark;
@@ -163,15 +168,28 @@ body {
     animation-duration: 13s;
     z-index: 50;
   }
-  // &.middle.dark {
-  //   background-image: url("/assets/wave-middle-dark.png");
-  // }
+}
+
+.icons {
+  position: absolute;
 }
 
 .icon {
-  position: absolute;
+  position: relative;
+  width: 100vw;
   img {
-    height: 50px;
+    position: relative;
+    top: 0;
+    height: 10vh;
+    margin: 1.5vh;
+    animation-name: slide-left;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    &:nth-child(2) {
+      animation-delay: -1s
+    }
   }
 }
+
 

@@ -24,6 +24,10 @@ const app = angular
           award: 'Best billboard believer',
           icons: [
             'billboard',
+            'billboard',
+            'billboard',
+            'billboard',
+            'billboard',
           ],
         },
         {
@@ -32,6 +36,9 @@ const app = angular
           // award: 'Best removal of an undercover operative',
           award: 'Best dismissing undercover operative',
           icons: [
+            'siren',
+            'police',
+            'siren',
             'police',
             'siren',
           ],
@@ -42,8 +49,10 @@ const app = angular
           // award: 'Best creation of long term morale building tool',
           award: 'Best morale building tool',
           icons: [
-            'good morning',
-            'good night',
+            'book',
+            'cloudy',
+            'book',
+            'moon',
             'book',
           ],
         },
@@ -52,6 +61,9 @@ const app = angular
           nameLast: 'Heyworth',
           award: 'Best Slack-er',
           icons: [
+            'slack',
+            'smile',
+            'slack',
             'smile',
             'slack',
           ],
@@ -63,6 +75,9 @@ const app = angular
           icons: [
             'scotch',
             'shots',
+            'scotch',
+            'shots',
+            'scotch',
           ],
         },
         {
@@ -73,6 +88,9 @@ const app = angular
           icons: [
             'shoes',
             'recycle',
+            'shoes',
+            'recycle',
+            'shoes',
           ],
         },
         {
@@ -82,6 +100,9 @@ const app = angular
           icons: [
             'dance',
             'coffee',
+            'dance',
+            'coffee',
+            'dance',
           ],
         },
         {
@@ -91,6 +112,10 @@ const app = angular
           award: 'Best cop-buddy movie style spying on a staffer',
           icons: [
             'binoculars',
+            'binoculars',
+            'binoculars',
+            'binoculars',
+            'binoculars',
           ],
         },
         {
@@ -99,6 +124,10 @@ const app = angular
           award: 'Best lifting kids upside down',
           icons: [
             'hold-up-kid',
+            'hold-up-kid',
+            'hold-up-kid',
+            'hold-up-kid',
+            'hold-up-kid',
           ],
         },
         {
@@ -106,6 +135,9 @@ const app = angular
           nameLast: 'Graham',
           award: 'Best hiding birthday for selfless reasons',
           icons: [
+            'balloons',
+            'cake',
+            'balloons',
             'cake',
             'balloons',
           ],
@@ -115,6 +147,10 @@ const app = angular
           nameLast: 'Kozlowski',
           award: 'Best being around inedible free food',
           icons: [
+            'no mouth',
+            'no mouth',
+            'no mouth',
+            'no mouth',
             'no mouth',
           ],
         },
@@ -133,6 +169,9 @@ const app = angular
           icons: [
             'lemon',
             'strawberry',
+            'lemon',
+            'strawberry',
+            'lemon',
           ],
         },
         {
@@ -141,6 +180,10 @@ const app = angular
           // award: 'Best job not fucking up a friend online the day after Election Day',
           award: 'Best spotting a tracker',
           icons: [
+            'search',
+            'whistle',
+            'search',
+            'whistle',
             'search',
           ],
         },
@@ -152,6 +195,10 @@ const app = angular
           // award: 'Best laptop login password',
           icons: [
             'coffee',
+            'coffee',
+            'coffee',
+            'coffee',
+            'coffee',
           ],
         },
         {
@@ -159,6 +206,10 @@ const app = angular
           nameLast: 'Phelan',
           award: 'Best deflection of a tracker',
           icons: [
+            'no-entry',
+            'no-entry',
+            'no-entry',
+            'no-entry',
             'no-entry',
           ],
         },
@@ -168,6 +219,10 @@ const app = angular
           // award: 'Best job listening to Republicans for hours without bleeding from your ears',
           award: 'Best listening to Republicans',
           icons: [
+            'headphones',
+            'headphones',
+            'headphones',
+            'headphones',
             'headphones',
           ],
         },
@@ -179,6 +234,9 @@ const app = angular
           icons: [
             'medal',
             'flowers',
+            'medal',
+            'flowers',
+            'medal',
           ],
         },
         {
@@ -186,6 +244,10 @@ const app = angular
           nameLast: 'Stevens',
           award: 'Best beard',
           icons: [
+            'beard',
+            'beard',
+            'beard',
+            'beard',
             'beard',
           ],
         },
@@ -196,6 +258,9 @@ const app = angular
           icons: [
             'wind',
             'camera',
+            'wind',
+            'camera',
+            'wind',
           ],
         },
         {
@@ -205,6 +270,9 @@ const app = angular
           icons: [
             'mint',
             'candy',
+            'mint',
+            'candy',
+            'mint',
           ],
         },
         {
@@ -212,7 +280,11 @@ const app = angular
           nameLast: 'Sheeley',
           award: 'Best dog mom',
           icons: [
-            'dog',
+            'pawprints',
+            'mom',
+            'pawprints',
+            'mom',
+            'pawprints',
           ],
         },
         {
@@ -222,6 +294,9 @@ const app = angular
           icons: [
             'baseball',
             'cap',
+            'baseball',
+            'cap',
+            'baseball',
           ],
         },
         {
@@ -231,6 +306,10 @@ const app = angular
           award: 'Best silent moving to SF',
           icons: [
             'airplane',
+            'airplane',
+            'airplane',
+            'airplane',
+            'airplane',
           ],
         },
         {
@@ -238,7 +317,11 @@ const app = angular
           nameLast: 'Keegan',
           award: 'Best positive attitude',
           icons: [
-            'happy face',
+            'happy',
+            'happy',
+            'happy',
+            'happy',
+            'happy',
           ],
         },
         {
@@ -247,8 +330,11 @@ const app = angular
           award: 'Best British accent in French',
           icons: [
             // 'monocle',
-            'france',
-            'union-jack',
+            'soldier',
+            'eiffel-tower',
+            'soldier',
+            'eiffel-tower',
+            'soldier',
           ],
         },
         // TODO: add Arika and Ryan??

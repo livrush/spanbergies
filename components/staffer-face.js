@@ -12,5 +12,5 @@ app.component('face', {
     };
   },
   controllerAs: 'face',
-  templateUrl: './staffer-face.html',
+  templateUrl: './components/staffer-face.html',
 });

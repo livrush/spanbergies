@@ -5,6 +5,10 @@ const app = angular
       const app = this;
       // TODO: Use shuffle function here to shuffle people
       app.awards = _.shuffle(awards.byPerson);
+      app.toggleToc = () => {
+        const TOC = document.getElementsByClassName('table-of-contents-container');
+        TOC[0].classList.toggle("hidden");
+      };
     },
     controllerAs: 'app',
     templateUrl: './components/app.html',
@@ -320,7 +324,8 @@ const app = angular
         {
           nameFirst: 'Michael',
           nameLast: 'Keegan',
-          award: 'Best positive attitude',
+          // award: 'Best positive attitude',
+          award: 'Best polite reminders for self care',
           icons: [
             'happy',
             'happy',

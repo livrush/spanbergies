@@ -29,17 +29,25 @@ body {
 }
 
 .header {
-  height: 100vh;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .trophy {
+  // overflow: hidden;
   margin: 25px auto;
-  height: 60vmin;
-  width: 60vmin;
+  height: 75vmin;
+  width: 75vmin;
   text-align: center;
   position: relative;
+  img {
+    z-index: 10;
+  }
   .figure {
     height: 100%;
+    position: relative;
   }
   .title {
     width: 100%;
@@ -50,18 +58,41 @@ body {
   }
 }
 
+.trophy-background-cover {
+  background-image: url(../assets/round.png);
+  background-size: contain;
+  background-repeat: repeat-y;
+  height: 100%;
+  width: 101%;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+
 .table-of-contents-container {
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: space-around;
-  // align-items: center;
   position: fixed;
   top: 0;
-  // background: rgba(255,255,255,0.9);
   left: 0;
   width: 100vw;
   height: 100vh;
   z-index: 999;
+  transition: 0.5s;
+}
+
+.toggle-toc {
+  background: $blue-light;
+  height: 50px;
+  width: 50px;
+  margin: 15px;
+  position: fixed;
+  border-radius: 100%;
+  right: 0;
+  z-index: 2000;
+  cursor: pointer;
+}
+
+.table-of-contents-container.hidden {
+  top: -100vh;
 }
 
 .table-of-contents {
@@ -201,6 +232,9 @@ body {
     background-image: url("../assets/wave-middle.png");
     animation-duration: 13s;
     z-index: 50;
+  }
+  &.low {
+    z-index: 0;
   }
 }
 

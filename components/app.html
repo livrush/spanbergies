@@ -1,11 +1,13 @@
 <div class="app">
+  <div class="toggle-toc" ng-click="app.toggleToc()"></div>
   <div class="header full-screen">
-    <h1>Welcome to the...</h1>
+    <!-- <h1>Welcome to the...</h1> -->
     <div class="trophy animated fadeIn">
       <img class="figure animated infinite pulse slow" src="./assets/trophy-body.png" alt="">
       <img class="title animated infinite pulse slow" src="./assets/trophy-title.png" alt="">
+      <div class="trophy-background-cover"></div>
+      <!-- <div class="wave light low"></div> -->
     </div>
-    <h5>Presented by Olivia Sabo-Rush</h5>
   </div>
   <div class="container">
     <toc staffers="app.awards" />

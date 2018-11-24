@@ -327,11 +327,11 @@ const app = angular
           // award: 'Best positive attitude',
           award: 'Best polite reminders for self care',
           icons: [
+            'health',
             'happy',
+            'health',
             'happy',
-            'happy',
-            'happy',
-            'happy',
+            'health',
           ],
         },
         {
@@ -339,7 +339,6 @@ const app = angular
           nameLast: 'Spanberger',
           award: 'Best British accent in French',
           icons: [
-            // 'monocle',
             'soldier',
             'eiffel-tower',
             'soldier',
@@ -347,7 +346,17 @@ const app = angular
             'soldier',
           ],
         },
-        // TODO: add Arika and Ryan??
-        // TODO: add Andrea Goulet??
+        {
+          nameFirst: 'Arika',
+          nameLast: 'Phillips',
+          award: 'Best starting a campaign after the campaign',
+          icons: [
+            'design',
+            'woman-in-politics',
+            'design',
+            'woman-in-politics',
+            'design',
+          ],
+        },
       ]
   });

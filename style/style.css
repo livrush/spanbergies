@@ -25,6 +25,14 @@
     left: -10vh;
   }
 }
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-25%);
+  }
+}
 body {
   font-family: Avenir;
   background: #1b4062;
@@ -74,6 +82,27 @@ body {
   position: absolute;
   top: 0;
   z-index: 5;
+}
+
+.header-icons-container {
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header-icons {
+  height: 100%;
+  width: 200%;
+  background-size: 25%;
+  background-image: url(../assets/icons.svg);
+  animation-name: slide;
+  animation-duration: 8s;
+  animation-direction: normal;
+  transform-origin: center bottom;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .table-of-contents-container {
@@ -225,9 +254,6 @@ body {
   background-image: url("../assets/wave-middle.png");
   animation-duration: 13s;
   z-index: 50;
-}
-.wave.low {
-  z-index: 0;
 }
 
 .icons {

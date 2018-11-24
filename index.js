@@ -9,6 +9,10 @@ const app = angular
         const TOC = document.getElementsByClassName('table-of-contents-container');
         TOC[0].classList.toggle("hidden");
       };
+      app.hideToc = () => {
+        const TOC = document.getElementsByClassName('table-of-contents-container');
+        TOC[0].classList.add("hidden");
+      };
     },
     controllerAs: 'app',
     templateUrl: './components/app.html',

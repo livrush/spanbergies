@@ -358,5 +358,17 @@ const app = angular
             'design',
           ],
         },
+        {
+          nameFirst: 'Laura',
+          nameLast: 'McClintock',
+          award: 'Best herding cats',
+          icons: [
+            'bus',
+            'cat',
+            'bus',
+            'cat',
+            'bus',
+          ],
+        },
       ]
   });

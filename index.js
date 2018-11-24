@@ -316,7 +316,7 @@ const app = angular
           nameFirst: 'Aateeb',
           nameLast: 'Khan',
           // award: 'Best moving to San Francisco without telling anyone',
-          award: 'Best silent moving to SF',
+          award: 'Best silent move to San Fran',
           icons: [
             'airplane',
             'moving',
